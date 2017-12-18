@@ -21,7 +21,7 @@ const body = [
     {name: '张三', sex: '男', job: 'it'},
 ]
 
-class App extends Component {
+class Test extends Component {
     constructor() {
         super();
         this.state = {
@@ -54,4 +54,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default Test;
