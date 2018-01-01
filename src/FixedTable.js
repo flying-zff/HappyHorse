@@ -244,12 +244,12 @@ export default class FixedTable extends React.Component {
                     tds.push(<td key={idx} style={{width}} className={className}>{data}</td>);
                 }
             });
+            
             return (
                 <tr
                     key={bodyIndex}
                     onDoubleClick={this.onTrDbClick}
                     onClick={this.onTrClick}
-                    className={this.state.selected.includes(bodyIndex) ? this.props.trSelectedCls : ''}
                     data-idx={bodyIndex}
                     onContextMenu={this.onContextMenu}
                 >
@@ -265,7 +265,6 @@ export default class FixedTable extends React.Component {
                 key={idx}
                 onDoubleClick={this.onTrDbClick}
                 onClick={this.onTrClick}
-                className={this.state.selected.includes(idx) ? this.props.trSelectedCls : ''}
                 data-idx={idx}
                 onContextMenu={this.onContextMenu}
             ><td></td></tr>
