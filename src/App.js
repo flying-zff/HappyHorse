@@ -46,7 +46,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p> */}
-                <div>修改下11111222222- 李发鹏-zff</div>
+                <div>修改下11111222222- 李发鹏-zff--ffff</div>
                 <FixedTable head={head} body={body}/>
                 <input type='text' onChange={this.onChange.bind(this)} value={this.state.value}/>
             </div>
