@@ -47,12 +47,17 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p> */}
                 <div>修改下11111222222- 李发鹏-zff--ffsdafzffzff</div>
-                <div>新加需求</div>
+                <div>新增信息</div>
                 <FixedTable head={head} body={body}/>
                 <input type='text' onChange={this.onChange.bind(this)} value={this.state.value}/>
             </div>
         );
     }
 }
-
+// 1.git stash 缓存
+// 2.git pull 从远程机器拉取最新代码
+// 3.git stash pop 把缓存放出来
+// 4.git add . || -A 
+// 5.git commit -m '注解'
+// 6.git push  提交到远程服务器
 export default App;
