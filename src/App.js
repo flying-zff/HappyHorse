@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import FixedTable from './FixedTable';
+// import FixedTable from './FixedTable';
 const head = [
     {
         label: '姓名',
@@ -48,7 +48,8 @@ class App extends Component {
         </p> */}
                 <div>修改下11111222222- 李发鹏-zff--ffsdafzffzff</div>
                 <div>新加需求</div>
-                <FixedTable head={head} body={body}/>
+                <div>第三次</div>
+                {/* <FixedTable head={head} body={body}/> */}
                 <input type='text' onChange={this.onChange.bind(this)} value={this.state.value}/>
             </div>
         );
