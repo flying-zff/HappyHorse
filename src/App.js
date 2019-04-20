@@ -16,7 +16,7 @@ const head = [
     },
 ]
 const body = [
-    {name: 'zff', sex: '女', job: 'it'},
+    {name: '曾飞飞', sex: '女', job: 'it'},
     {name: ' lfp', sex: '男', job: 'it'},
     {name: '张三', sex: '男', job: 'it'},
 ]
