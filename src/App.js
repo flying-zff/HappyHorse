@@ -30,6 +30,7 @@ class App extends Component {
     }
     onChange(e) {
         console.log('zff');
+        console.log('lfp')
         this.setState({
             value: e.target.value
         });
