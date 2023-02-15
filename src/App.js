@@ -36,6 +36,10 @@ class App extends Component {
             value: e.target.value
         });
     }
+
+    test () {
+        console.log('---测试第二次提交');
+    }
     // handleEvent = evt => {
     //   console.log('----evt', evt);
     // }
