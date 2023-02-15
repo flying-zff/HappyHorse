@@ -30,7 +30,8 @@ class App extends Component {
     }
     onChange(e) {
         console.log('zff');
-        console.log('lfp')
+        console.log('lfp');
+        console.log('---第一次提交');
         this.setState({
             value: e.target.value
         });
