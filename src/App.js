@@ -39,6 +39,7 @@ class App extends Component {
 
     test () {
         console.log('---测试第二次提交');
+        console.log('---测试reset mixed回退');
     }
 
     // test1 () {
@@ -47,6 +48,7 @@ class App extends Component {
     // handleEvent = evt => {
     //   console.log('----evt', evt);
     // }
+
     render() {
         return (
             <div className="App">
