@@ -40,6 +40,10 @@ class App extends Component {
     test () {
         console.log('---测试第二次提交');
     }
+
+    // test1 () {
+    //     console.log('---测试第三次提交');
+    // }
     // handleEvent = evt => {
     //   console.log('----evt', evt);
     // }
